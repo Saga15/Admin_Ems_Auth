@@ -31,7 +31,6 @@ export const loginUser = createAsyncThunk(
       );
       localStorage.setItem("userToken", data.token);
       localStorage.setItem("isLoggedin", true);
-      console.log("...",);
       localStorage.setItem("name", data.result.name);
 
 

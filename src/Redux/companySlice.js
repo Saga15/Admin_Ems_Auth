@@ -33,7 +33,6 @@ export const createCompany = createAsyncThunk(
   "company/create",
 
   async (arg, { rejectWithValue }) => {
-    console.log("arg", arg);
     try {
       const token = localStorage.getItem("userToken");
       const config = {
@@ -46,7 +45,6 @@ export const createCompany = createAsyncThunk(
         arg,
         config
       );
-      console.log("");
     } catch (error) {
       rejectWithValue(error.response.data);
     }
@@ -57,7 +55,6 @@ export const deleteCompany = createAsyncThunk(
   "company/delete",
 
   async (arg, { rejectWithValue }) => {
-    console.log("arg",arg);
     try {
       const token = localStorage.getItem("userToken");
       const config = {
@@ -76,14 +73,12 @@ export const deleteCompany = createAsyncThunk(
   }
 );
 
-
 export const updateCompany = createAsyncThunk(
   "company/edit",
 
   async (arg, { rejectWithValue }) => {
-    console.log("arg",arg);
     try {
-      const id = arg._id
+      const id = arg._id;
       const token = localStorage.getItem("userToken");
       const config = {
         headers: {

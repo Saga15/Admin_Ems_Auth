@@ -47,7 +47,7 @@ const Company = () => {
   }, []);
   const handleChange = (e) => {
     setCompData({ ...compData, [e.target.name]: e.target.value });
-    console.log();
+   
   };
 
 

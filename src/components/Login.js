@@ -16,7 +16,6 @@ const Login = () => {
   const { register, handleSubmit } = useForm();
 
   const submitForm = (data) => {
-    console.log("data", data);
     dispatch(loginUser(data));
   };
   useEffect(() => {
