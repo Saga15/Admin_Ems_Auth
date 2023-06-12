@@ -1,38 +1,381 @@
-.App {
-  text-align: center;
+.container {
+  position: relative;
+  width: 1910px;
+  height: 1000px;
+  /* margin-right: 55%; */
+  background: #ffffff;
+  right: 15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#login-txt {
+  position: absolute;
+  width: 136px;
+  height: 50px;
+  left: 232px;
+  top: 280px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  /* identical to box height, or 50px */
+  color: #34485c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#para {
+  position: absolute;
+  width: 279px;
+  height: 18px;
+  left: 232px;
+  top: 358px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  color: #34485c;
+}
+#email {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  left: 232px;
+  top: 428px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  color: #34485c;
+}
+#inp-eml {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 232px;
+  top: 460px;
+
+  border: 1px solid rgba(52, 72, 92, 0.15);
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#inp-pass {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 232px;
+  top: 572px;
+
+  border: 1px solid rgba(52, 72, 92, 0.15);
+  border-radius: 5px;
+}
+.login-btn {
+  position: absolute;
+  width: 500px;
+  height: 52px;
+  left: 232px;
+  top: 696px;
+
+  background: #00b3ff;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+#lable-pass {
+  position: absolute;
+  width: 94px;
+  height: 20px;
+  left: 232px;
+  top: 540px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  color: #34485c;
+}
+#forgot-pass {
+  position: absolute;
+  width: 170px;
+  height: 20px;
+  left: 562px;
+  top: 632px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-align: right;
+
+  color: #34485c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#sample {
+  position: absolute;
+  width: 221px;
+  height: 20px;
+  left: 326px;
+  top: 747px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  color: #34485c;
 }
+
+#spn {
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  left: 555px;
+  top: 768px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  color: #00b3ff;
+}
+
+/* company css */
+
+.ems {
+  position: absolute;
+  width: 1920px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  /* background-color: red; */
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 240px;
+  height: 976px;
+  left: 0px;
+  top: 88px;
+
+  background: #003b6e;
+  box-shadow: 0px 4px 25px rgba(0, 59, 110, 0.15);
+}
+
+#cmp {
+  position: absolute;
+  width: 235px;
+  height: 72px;
+  left: 4px;
+  top: 129px;
+
+  background: #002e57;
+}
+
+#inp {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 400px;
+  height: 48px;
+  left: 432px;
+  top: 110px;
+
+  border: 1px solid rgba(52, 72, 92, 0.15);
+  border-radius: 5px;
+}
+
+.ctn-div {
+  position: absolute;
+  width: 1648px;
+  height: 960px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  background-color: #00b3ff;
+}
+
+#ad-btn {
+  position: absolute;
+  width: 220px;
+  height: 48px;
+  /* left: 1404px; */
+  top: 127px;
+  right: 164px;
+
+  background: #00b3ff;
+  border-radius: 5px;
+}
+
+.tbl-div {
+  position: absolute;
+  width: 1648px;
+  height: 52px;
+  left: 250px;
+  top: 94px;
+
+  background: rgba(0, 59, 110, 0.04);
+}
+.headings {
+  position: absolute;
+  width: 1920px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  /* background-color: red; */
+}
+
+.c-logo {
+  position: absolute;
+  width: 110.6px;
+  height: 56px;
+  left: 16px;
+  top: 16px;
+}
+
+.c-bars {
+  position: absolute;
+  left: 195px;
+  right: 17.19%;
+  top: 38px;
+  bottom: 23.44%;
+
+  width: 20px;
+  height: 15px;
+}
+
+.person-imgs {
+  position: absolute;
+  left: 1754px;
+  right: 138px;
+  top: 30px;
+  bottom: 30px;
+
+  background: rgba(52, 72, 92, 0.2);
+  width: 28px;
+  height: 28px;
+}
+.logout {
+  position: absolute;
+  left: 1874px;
+  right: 24px;
+  top: 34px;
+  bottom: 34px;
+  width: 22px;
+  height: 20px;
+}
+.pers-name {
+  position: absolute;
+  width: 16px;
+  left: 1792px;
+  right: 64px;
+  top: 32px;
+  bottom: 32px;
+}
+.tables {
+  top: 187px;
+}
+.c-name {
+  position: absolute;
+  width: 132px;
+  height: 28px;
+  left: 260px;
+  top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  /* identical to box height, or 28px */
+
+  color: #34485c;
+}
+
+.cmp-div {
+  position: absolute;
+  width: 235px;
+  height: 72px;
+  left: 4px;
+  top: 41px;
+
+  background: #002e57;
+}
+.cmp-h3 {
+  position: absolute;
+  width: 93px;
+  height: 24px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  left: 60px;
+  top: 24px;
+}
+
+.cmp-logo {
+  position: absolute;
+  left: 27px;
+
+  width: 20px;
+  height: 26.67px;
+  top: 23px;
+}
+
+.img-ems {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -57%;
+
+  height: 1000px;
+}
+.img-big {
+  height: 100%;
+  height: 1000px;
+
+ 
+}
+.cloum-2 {
+  column-count: 2;
+}
+.back-clr {
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  cursor: pointer;
+}
+/* .main-log{
+  height: 1000px;
+  height: 100%;
+} */
